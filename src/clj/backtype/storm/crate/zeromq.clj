@@ -58,7 +58,7 @@
     (var tmpdir (~directory/make-temp-dir "rf"))
     (cd (quoted @tmpdir))
     ;; use frozen version of jzmq
-    (git clone "https://github.com/nathanmarz/jzmq.git")
+    (git clone "https://github.com/epicplayground/jzmq.git")
 
     (cd "jzmq")
 
